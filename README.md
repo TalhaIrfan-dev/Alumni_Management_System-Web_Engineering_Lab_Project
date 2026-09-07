@@ -1,132 +1,131 @@
-# Web Engineering
+# 🎓 Alumni Management System
 
-Welcome to my **Web Engineering** coursework repository.
+A web-based **Alumni Management System** developed as part of the **Web Engineering** course at **Sukkur IBA University**.
 
-This repository contains the practical work completed during my Web Engineering course, including laboratory tasks, programming exercises, web pages, mini-projects, and other relevant coursework developed throughout the semester.
+This project is developed **lab-wise**, where each Web Engineering laboratory contributes new features, concepts, or improvements to the same Alumni Management System.
 
-The repository will be updated regularly as new laboratory activities and projects are completed.
+The purpose is to apply the concepts learned in each lab to a single practical web application instead of developing separate applications for every laboratory.
 
----
-
-## 📌 About the Repository
-
-The main purpose of this repository is to maintain a centralized and version-controlled record of my practical learning in Web Engineering.
-
-It provides a structured place to:
-
-* Submit and maintain laboratory tasks.
-* Practice web development concepts.
-* Develop and test web-based applications.
-* Preserve different versions of coursework using Git.
-* Document practical implementations.
-* Track my progress throughout the semester.
+> **Note:** This is a Web Engineering lab project and is separate from the semester/final project for the course.
 
 ---
 
-## 📂 Project Organization
+## 📌 About the Project
 
-The coursework is separated by laboratory so that each practical session can be accessed independently.
+The **Alumni Management System (AMS)** is designed to provide a web-based platform for managing alumni-related information and interactions.
+
+The system will be developed incrementally throughout the Web Engineering labs. As new concepts are introduced in the course, they will be incorporated into the existing system.
+
+The project will therefore evolve from a basic HTML-based interface into a more complete and interactive web application.
+
+---
+
+## 🎯 Objectives
+
+* Apply Web Engineering concepts through practical implementation.
+* Develop one continuous project across multiple laboratory sessions.
+* Practice HTML, CSS, JavaScript, and other web technologies.
+* Improve the existing system as new concepts are learned.
+* Maintain the project using Git and GitHub.
+* Keep track of development progress through commits and branches.
+
+---
+
+## 🛠️ Technologies
+
+The technologies used in this project include:
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
+* Visual Studio Code
+
+Additional technologies may be introduced as the Web Engineering course progresses.
+
+---
+
+## 🧪 Lab-wise Development
+
+Each laboratory is implemented as part of the Alumni Management System.
+
+| Lab    | Focus                       | Status         |
+| ------ | --------------------------- | -------------- |
+| Lab 01 | Basic HTML Structure        | ✅ Completed    |
+| Lab 02 | HTML Forms & Input Elements | 🔄 In Progress |
+| Lab 03 | CSS Styling                 | ⏳ Upcoming     |
+| Lab 04 | —                           | ⏳ Upcoming     |
+| Lab 05 | —                           | ⏳ Upcoming     |
+| ...    | ...                         | ⏳ Upcoming     |
+
+The table will be updated as new laboratories are completed.
+
+---
+
+## 🌿 Git Workflow
+
+Each laboratory is developed using a separate Git branch.
+
+```text
+main
+ │
+ ├── lab-01
+ ├── lab-02
+ ├── lab-03
+ ├── lab-04
+ └── ...
+```
+
+### Development Process
+
+```text
+Create Lab Branch
+       ↓
+Implement Lab Requirements
+       ↓
+Test the Changes
+       ↓
+Commit the Work
+       ↓
+Merge into main
+       ↓
+Continue with Next Lab
+```
+
+The `main` branch contains the latest integrated version of the Alumni Management System.
+
+Individual lab branches preserve the development work associated with each laboratory.
+
+---
+
+## 📂 Project Structure
+
+The project structure will evolve as new features are introduced.
 
 ```text
 web-engineering/
 │
-├── LABs/
-│   ├── LAB#01/
-│   ├── LAB#02/
-│   ├── LAB#03/
-│   └── ...
+├── index.html
+├── login.html
+├── home.html
+├── register.html
 │
-├── Theory/
+├── css/
+├── js/
+├── images/
 │
 ├── README.md
-├── LICENSE
-└── .gitignore
+└── LICENSE
 ```
-
-The contents of individual laboratory folders will depend on the tasks assigned in each lab.
-
----
-
-## 🧪 Laboratory Work
-
-Each lab folder represents a separate practical session.
-
-A laboratory may include:
-
-* HTML pages
-* CSS files
-* JavaScript programs
-* Web forms
-* Practical exercises
-* Screenshots
-* Mini-projects
-* Supporting resources
-* Task-specific documentation
-
-New laboratory folders will be added as the semester progresses.
-
----
-
-## 🛠️ Development Environment
-
-The coursework may be developed and tested using different tools depending on the requirements of each practical task.
-
-Currently used tools include:
-
-* **HTML**
-* **CSS**
-* **JavaScript**
-* **Visual Studio Code**
-* **Git**
-* **GitHub**
-* **Web Browsers**
-
-Additional technologies, frameworks, libraries, or backend tools will be included when they become part of the course.
-
----
-
-## 🔄 Version Control
-
-Git is used to manage the development history of this repository.
-
-Changes are organized into commits so that the progress of laboratory work can be tracked over time.
-
-The general workflow is:
-
-```text
-Work on Task
-     ↓
-Test the Implementation
-     ↓
-Stage Changes
-     ↓
-Commit Changes
-     ↓
-Push to GitHub
-```
-
----
-
-## 🎯 Learning Goals
-
-Through the practical work in this repository, I aim to develop a stronger understanding of:
-
-* Building structured web pages
-* Designing user interfaces
-* Adding interactivity to web pages
-* Working with client-side technologies
-* Understanding web application development
-* Using development and debugging tools
-* Managing projects with Git and GitHub
-* Applying Web Engineering concepts through practical implementation
 
 ---
 
 ## 📈 Progress
 
-This repository is a **work in progress** and will continue to grow throughout the semester.
+This repository is continuously updated as part of the Web Engineering laboratory work.
 
-Completed laboratory work will be added progressively, allowing the repository to serve as a record of my practical development and learning.
+Each laboratory builds upon the previous implementation, gradually improving the Alumni Management System.
 
 ---
 
@@ -141,6 +140,8 @@ Sukkur IBA University
 
 ## 📄 License
 
-This repository is licensed under the MIT **License**.
+This project is licensed under the MIT License.
 
 See the `LICENSE` file for the complete license terms.
+
+
